@@ -35,6 +35,7 @@
 
         engineering_pkgs = with pkgs; [
           freecad
+          orca-slicer
         ];
 
         dev_pkgs = with pkgs; [
@@ -43,6 +44,11 @@
 
         fmt_pkgs = with pkgs; [
           treefmt
+
+          nixfmt
+          prettier
+          taplo
+          zig
         ];
       in
       {
@@ -52,11 +58,12 @@
             packages = runtime_and_compiler_pkgs ++ dev_pkgs ++ engineering_pkgs ++ fmt_pkgs;
           };
 
-					fmt = pkgs.mkShell {
-						packages = fmt_pkgs;
-					};
+          fmt = pkgs.mkShell {
+            packages = fmt_pkgs;
+          };
         };
 
       }
     );
 }
+
