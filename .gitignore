@@ -12,3 +12,6 @@ uv.lock
 
 # secrets
 .env
+
+# freecad
+*.FCBak
