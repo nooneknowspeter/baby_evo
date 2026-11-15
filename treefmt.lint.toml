@@ -1,0 +1,40 @@
+[formatter.nixfmt]
+command = "nixfmt"
+excludes = []
+includes = ["*.nix"]
+options = ["--check"]
+
+[formatter.prettier]
+command = "prettier"
+excludes = []
+includes = [
+  "*.cjs",
+  "*.css",
+  "*.html",
+  "*.js",
+  "*.json",
+  "*.json5",
+  "*.jsx",
+  "*.md",
+  "*.mdx",
+  "*.mjs",
+  "*.scss",
+  "*.ts",
+  "*.tsx",
+  "*.vue",
+  "*.yaml",
+  "*.yml",
+]
+options = ["--check"]
+
+[formatter.taplo]
+command = "taplo"
+excludes = []
+includes = ["*.toml"]
+options = ["format", "--check"]
+
+[formatter.zig]
+command = "zig"
+excludes = []
+includes = ["*.nix"]
+options = ["fmt", "--check"]
