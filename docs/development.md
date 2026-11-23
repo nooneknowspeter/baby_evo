@@ -25,6 +25,6 @@ just lint             # check formatting with treefmt
 
 ## CAD workflow
 
-- Source models live in `project_files/` (FreeCAD `.FCStd`)
+- Native project files live in `project_files/` (Blender, FreeCAD, or any other software)
 - Exported parts (STEP/STL/3MF) go to `bin/export/<part>/`
 - Slice with OrcaSlicer for printing

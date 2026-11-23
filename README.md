@@ -98,7 +98,7 @@ Mitsubishi Colt Ralliart Version-R (`Z27AG`) project: 1.5L turbo (`4G15T`) CAD m
 
 ## Layout
 
-- `project_files/` — FreeCAD source files (shifter, exterior)
+- `project_files/` — native project files (Blender, FreeCAD, or any other software)
 - `bin/export/` — exported parts (STEP/STL/3MF)
 - `bin/roms/` — ECU ROMs
 - `src/definitions/` — ECU XML definitions
