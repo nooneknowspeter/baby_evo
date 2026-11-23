@@ -36,5 +36,5 @@ options = ["format", "--check"]
 [formatter.zig]
 command = "zig"
 excludes = []
-includes = ["*.nix"]
+includes = ["*.zig"]
 options = ["fmt", "--check"]
