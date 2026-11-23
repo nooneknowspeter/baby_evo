@@ -1,6 +1,6 @@
 # baby evo
 
-Mitsubishi Lancer Evolution project: CAD models, 3D-printed parts, and ECU definitions/ROMs.
+Mitsubishi Colt Ralliart Version-R (`Z27AG`) project: 1.5L turbo (`4G15T`) CAD models, 3D-printed parts, ECU definitions/ROMs, and custom telemetry.
 
 ## Layout
 
