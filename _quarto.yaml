@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: _output
+  render:
+    - index.qmd
+    - docs/*.md
+  preview:
+    host: 0.0.0.0
+    port: 6660
+    browser: false
+
+website:
+  title: baby evo
+  sidebar:
+    tools:
+      - icon: github
+        href: https://github.com/nooneknowspeter/baby_evo
+    contents:
+      - index.qmd
+      - section: Documentation
+        contents:
+          - docs/development.md
+  bread-crumbs: true
+  page-navigation: true
+
+format:
+  html:
+    toc: true
+    embed-resources: false
+  typst:
+    toc: true
+    number-sections: true
+    papersize: us-letter
+    margin:
+      x: 0.75in
+      y: 0.9in
