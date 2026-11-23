@@ -40,6 +40,7 @@
 
         dev_pkgs = with pkgs; [
           git
+          opencode
         ];
 
         fmt_pkgs = with pkgs; [
